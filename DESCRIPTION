@@ -1,0 +1,11 @@
+Package: dezimcol
+Title: DeZIM Farbskalen für ggplot2
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: DeZIM Farbskalen für ggplot2: scale_color_dezim(), scale_fill_dezim()
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
