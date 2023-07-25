@@ -1,0 +1,18 @@
+#' DeZIM Farben als Hexcodes extrahieren
+#'
+#' @param ... Farbbezeichnung(en) als Strings (character)
+#' @examples dezim_cols()
+#' @examples dezim_cols("Earth yellow")
+#' @examples dezim_cols("Earth yellow", "Dartmouth green")
+#' @examples ggplot(mtcars, aes(x = hp, y = mpg)) +
+#' geom_point(size = 2.5, col = dezim_cols("Dartmouth green"))
+#' @export
+
+dezim_cols <- function(...) {
+  cols <- c(...)
+
+  if (is.null(cols))
+    return(dezim)
+
+  dezim[cols]
+}
