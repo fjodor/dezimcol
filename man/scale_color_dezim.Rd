@@ -20,6 +20,10 @@ Color scale-Konstruktor für DeZIM-Farben
 }
 \examples{
 ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) +
-geom_point(size = 3) +
-scale_color_dezim()
+  geom_point(size = 3) +
+  scale_color_dezim()
+
+ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3) +
+  scale_color_dezim(palette = "drei")
 }

@@ -1,6 +1,6 @@
 #' DeZIM Farbpaletten interpolieren
 #'
-#' @param palette Name der Farbpalette (String / character)
+#' @param palette Name der Farbpalette (String / character). Zur Zeit "alle", "gruen", "drei"
 #' @param reverse Boolean: Palette umdrehen?
 #' @param ... Zusätzliche Argumente, die an grDevices::colorRampPalette() weitergegeben werden
 #' @examples dezim_pal("alle")  # Liefert eine Funktion!

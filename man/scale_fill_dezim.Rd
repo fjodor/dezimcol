@@ -20,6 +20,10 @@ Fill scale-Konstruktor für DeZIM-Farben
 }
 \examples{
 ggplot(mtcars, aes(x = factor(cyl), fill = interaction(am, gear, sep = "/"))) +
-geom_bar(position = position_stack()) +
-scale_fill_dezim(name = "Automatik / Gänge")
+  geom_bar(position = position_stack()) +
+  scale_fill_dezim(name = "Automatik / Gänge")
+
+ggplot(mtcars, aes(x = factor(cyl), fill = interaction(am, gear, sep = "/"))) +
+  geom_bar(position = position_stack()) +
+  scale_fill_dezim(name = "Automatik / Gänge", palette = "drei")  # Ohne grau
 }

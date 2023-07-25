@@ -7,7 +7,7 @@
 dezim_pal(palette = "alle", reverse = FALSE, ...)
 }
 \arguments{
-\item{palette}{Name der Farbpalette (String / character)}
+\item{palette}{Name der Farbpalette (String / character). Zur Zeit "alle", "gruen", "drei"}
 
 \item{reverse}{Boolean: Palette umdrehen?}
 
