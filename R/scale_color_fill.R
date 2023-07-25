@@ -4,7 +4,7 @@
 #' @param discrete Boolean: Farbskala diskret oder nicht?
 #' @param reverse Boolean: Skala umdrehen?
 #' @param ... Weitere Parameter, die an discrete_scale() oder scale_color_gradientn() weitergegeben werden, je nach discrete TRUE / FALSE
-#' @example ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) +
+#' @examples ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) +
 #' geom_point(size = 3) +
 #' scale_color_dezim()
 #' @export
@@ -26,7 +26,7 @@ scale_color_dezim <- function(palette = "alle", discrete = TRUE, reverse = FALSE
 #' @param discrete Boolean: Farbskala diskret oder nicht?
 #' @param reverse Boolean: Skala umdrehen?
 #' @param ... Weitere Parameter, die an discrete_scale() oder scale_color_gradientn() weitergegeben werden, je nach discrete TRUE / FALSE
-#' @example ggplot(mtcars, aes(x = cyl, fill = interaction(am, gear, sep = "/"))) +
+#' @examples ggplot(mtcars, aes(x = factor(cyl), fill = interaction(am, gear, sep = "/"))) +
 #' geom_bar(position = position_stack()) +
 #' scale_fill_dezim(name = "Automatik / Gänge")
 #' @export
