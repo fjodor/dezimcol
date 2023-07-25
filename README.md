@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of dezimcol is to ...
+dezimcol provides DeZIM color scales for ggplot2: scale_color_dezim() and scale_fill_dezim().
 
 ## Installation
 
