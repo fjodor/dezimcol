@@ -1,6 +1,8 @@
 #' DeZIM Farben als Hexcodes extrahieren
 #'
+#' Falls keine Farben angegeben: gibt alle DeZIM-Farben zurück.
 #' @param ... Farbbezeichnung(en) als Strings (character)
+#' @return Benannter Vektor mit Hexcodes der DeZIM-Farben
 #' @examples dezim_cols()
 #' @examples dezim_cols("Earth yellow")
 #' @examples dezim_cols("Earth yellow", "Dartmouth green")
