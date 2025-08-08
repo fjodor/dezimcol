@@ -9,8 +9,11 @@ dezim_cols(...)
 \arguments{
 \item{...}{Farbbezeichnung(en) als Strings (character)}
 }
+\value{
+Benannter Vektor mit Hexcodes der DeZIM-Farben
+}
 \description{
-DeZIM Farben als Hexcodes extrahieren
+Falls keine Farben angegeben: gibt alle DeZIM-Farben zurück.
 }
 \examples{
 dezim_cols()
