@@ -1,6 +1,6 @@
 Package: dezimcol
 Title: DeZIM Farbskalen für ggplot2
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
