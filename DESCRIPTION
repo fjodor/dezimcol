@@ -2,8 +2,7 @@ Package: dezimcol
 Title: DeZIM Farbskalen für ggplot2
 Version: 0.1.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Wolf", "Riepl", , "wolf.riepl@statistik-dresden.de", role = c("aut", "cre"))
 Description: DeZIM Farbskalen für ggplot2: scale_color_dezim(), scale_fill_dezim()
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -12,7 +11,7 @@ RoxygenNote: 7.3.2
 URL: https://github.com/fjodor/dezimcol
 BugReports: https://github.com/fjodor/dezimcol/issues
 Depends: 
-    R (>= 4.1.0)
+    R (>= 4.1.0),
     ggplot2
 Suggests: 
     colorspace
